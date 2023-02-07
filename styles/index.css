@@ -51,6 +51,7 @@ body{
     justify-content: flex-start;
     align-items: flex-end;
     border-radius: 5px; 
+    justify-content: space-evenly;
 }
 .box-two__box {
     width: 78px;
@@ -74,7 +75,8 @@ body{
     margin-left: 20px;
     justify-content: flex-start;
     align-items: flex-end;
-    border-radius: 5px; 
+    border-radius: 5px;
+    justify-content: flex-end; 
 } 
 .box-three__box { 
     width: 70px;
@@ -84,7 +86,7 @@ body{
     margin: 20px;
     flex-wrap: wrap;
     display: flex;
-    justify-content: flex-end;
+   
 }
 
 .box-four {
@@ -94,11 +96,10 @@ body{
     display: flex;
     margin-top: 20px;
     margin-left: 20px;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: space-evenly;
     border-radius: 5px; 
 }
-.box-four__box {
+.box-four__box1 {
     width: 70px;
     height: 70px;
     background-color: brown;
@@ -109,6 +110,16 @@ body{
     align-items: flex-start;
     
 }
+.box-four__box3 {
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    padding: 10px;
+    margin: 15px;
+    flex-wrap: wrap;
+    display: flex;
+    align-self: flex-end;
+}
 
 .box-five {
     background-color:#F48C06;
@@ -117,7 +128,7 @@ body{
     display: flex;
     margin-top: 20px;
     margin-left: 20px;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: flex-end;
     border-radius: 5px; 
 }
@@ -128,11 +139,19 @@ body{
     background-color: brown;
     padding: 10px;
     margin: 20px;
-
     display: flex; 
     border-radius: 4px; 
 }
-
+.box-five__box2 {
+    width: 78px;
+    height: 64px;
+    background-color: brown;
+    padding: 10px;
+    margin: 20px;
+    display: flex; 
+    border-radius: 4px; 
+    align-self: center;
+}
 
 .box-six {
     background-color:#F48C06;
@@ -145,12 +164,21 @@ body{
     align-items: flex-end;
     border-radius: 5px; 
 }
-.box-six__box {
-    width: 70px;
-    height: 70px;
+.box-six__box1 {
+    width: 78px;
+    height: 78px;
     background-color: brown;
     padding: 10px;
     margin: 20px;
     flex-wrap: wrap;
     display: flex;  
+}
+.box-six__box3 {
+    width: 156px;
+    height: 78px;
+    background-color: brown;
+    padding: 10px;
+    margin: 20px;
+    flex-wrap: wrap;
+    display: flex; 
 }
